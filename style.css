@@ -1,0 +1,215 @@
+/**{
+	margin: 0;
+	padding: 0;
+}*/
+
+.navbar{
+	background-color: #022A3B;
+}
+
+.headerBtn{
+	background-color: #06a7ea;
+	color: white;
+	word-spacing: 5px;
+	border-radius: 0px;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+}
+
+.headerBtn:hover{
+	color: white;
+	background-color: #0080ff;	
+}
+
+.headerBtn .pull-right{
+	margin-top: 3px;
+}
+
+.slogan{
+	color: #b5b5b5;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.headername{
+	font-size: 30px;
+	color: #022A3B;
+}
+
+.headerslogan span{
+	font-size: 15px;
+	color: #b5b5b5;	
+}
+
+.mail{
+    color: #707070;
+    font-size: 18px;
+    padding-left: 0px;
+    margin-left: 7px;
+}
+
+.number{
+    color: #707070;
+    font-size: 18px;
+    margin-left: 7px;
+    padding-left: 0px;
+}
+
+.callLogo, .letterlogo{
+	color: #707070;
+}
+/* header end*/
+
+/* menu start*/
+.menu{
+	margin-top: 25px;
+	background-color: #F0F0F0;
+}
+
+.menu .nav{
+	margin-top: 5px;
+	margin-left: 40px;
+}
+
+.menu .dropdown{
+	background-color: #022a3b;
+	border-radius: 5px;
+}
+
+.menu .dropdown1{
+	width: 50px;
+	margin-left: 40px;
+	margin-top: 7px;
+}
+
+/* menu end*/
+
+
+/* map start */
+/* Burda yalnizca wekil oldugu ucun hec bir kod yazilmadi :))) */
+/* map end */
+
+
+/* feature start */
+
+.feature{
+	background-color: #F0F0F0;
+	margin-top: 20px;
+}
+
+.feature img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.feature h3{
+	color: #00bfff;
+}
+
+.rightfeature img{
+	width: 100px;
+}
+
+.feature .girl{
+	background-color: white;
+	margin-top: 10px;
+}
+
+.feature .boy{
+	padding: 0px;
+}
+
+.boyimage{
+	padding: 0px;
+}
+
+.feature .boy{
+	background-color: white;
+	margin-top: 10px;
+}
+/* feature end */
+
+
+/* slider start */
+
+.slider{
+	background-color: #F0F0F0;
+}
+
+/* slider end */
+
+
+/* Theme features start */
+.themeFeatures{
+	background-color: #F0F0F0;
+	margin-bottom: 0px;
+}
+
+.themeFeatures p{
+	color: #707070;
+}
+/* Theme features end */
+
+/* thumb nails start  */
+.thumbNails{
+	margin-bottom: 30px;
+}
+
+.thumbNails button{
+	width: 130px;
+	background-color: #0080ff;
+	color: white;
+	border-radius: 0;
+}
+
+.thumbNails .icon{
+	margin-top: 3px;
+}
+/* thumb nails end  */
+
+/* contact start */
+.contact{
+	margin-top: 50px;
+	background-color: #02344A;
+	/*margin-bottom: 40px;*/
+}
+
+.contact span{
+	color: white;
+}
+
+.contact .boy{
+	/*border: 1px solid black;*/
+}
+
+.contact .span{
+	margin-left: 20px;
+}
+
+.contact ul li, a{
+	color: white;
+	/*border-bottom: 1px dashed #00bfff;*/
+	margin: 5px;	
+}
+/* contact end */
+
+
+
+/* footer start */
+.footer{
+	background-color: #022A3B;
+}
+
+.footer ul{
+	background-color:  #022A3B;
+	margin-bottom: 20px;
+}
+
+.footer ul li{
+	display: inline-block;
+	color: white;
+	letter-spacing: 20px;
+}
+/* footer end */

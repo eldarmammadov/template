@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<title>Real Estate template</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- navbar start -->
+		<div class="container-fluid navbar">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav pull-left">
+						<li><a href="#">Home</a></li>
+					</ul>
+					<ul class="nav nav-pills pull-right " style="color: red;">
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Registration</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- navbar end -->
+		<!-- header start -->
+		<div class="container-fluid header">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="col-md-2 headerlogo">
+						<img src="images/logo.png" alt="logo" width="44" height="44">
+					</div>
+					<div class="col-md-3 headername">
+						<span>Realia</span>
+					</div>
+					<div class="col-md-5 headerslogan">
+						<span>Real estate & Rental made easy</span>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-5">
+					<div class="col-md-1 letterlogo">
+						<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-5 mail">
+						<span>nijat.z@code.edu.az</span>
+					</div>
+					<div class="col-md-1 callLogo">
+						<i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-4 number">
+						<span>+994519400430</span>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-3">
+					<button type="button" class="btn headerBtn">List your property<span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span></button>
+				</div>
+			</div>
+		</div>
+		<!-- header end -->
+		<!-- menu start -->
+		<div class="container-fluid menu">
+			<div class="row">
+				<div class="col-md-6 nav">
+					<ul class="nav nav-pills">
+						
+						<li role="presentation" class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								Homepage <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Homepage with map</a></li>
+								<li><a href="#">Simple homepage</a></li>
+								<li><a href="#">Homepage with carousel</a></li>
+							</ul>
+						</li>
+						<li role="presentation" class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								Listing <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Listing grid</a></li>
+								<li><a href="#">Listing grid with filter</a></li>
+								<li><a href="#">Listing rows</a></li>
+								<li><a href="#">Listing rows with filter</a></li>
+							</ul>
+						</li>
+						<li role="presentation" class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								Pages <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">About us</a> </li>
+								<li><a href="#">Our agents</a></li>
+								<li><a href="#">FAQ</a> </li>
+								<li><a href="#">Shortcodes</a> </li>
+								<li><a href="#">Another level</a> </li>
+								<li><a href="#">404 page</a> </li>
+							</ul>
+						</li>
+						<li role="presentation" class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								Pricing <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Boxed pricing</a> </li>
+								<li><a href="#">Multiple pricing</a> </li>
+								<li><a href="#">Simple Pricing</a> </li>
+							</ul>
+						</li>
+						<li role="presentation" class="dropdown">
+							<a href="#">
+								Contact Us <span class=""></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-md-offset-2">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+					</form>
+					
+				</div>
+				<div class="col-md-1">
+					<div class="dropdown1">
+						<button class="btn btn-default">
+						Dropdown
+						<span class="caret"></span>
+						</button>
+						<ul class="dropdown" aria-labelledby="dropdownMenu1">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- menu end -->
+		<!-- map start -->
+		<div class="container-fluid map">
+			<div class="row">
+				<div class="col-md-12">
+					<img style="width: 100%; padding: 0px;" src="images/map.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- map end -->
+		<!-- feature start -->
+		<div class="container-fluid feature">
+			
+			<div class="row">
+				<div class="col-md-9 leftfeature">
+					<h2 style="color: #707070;">Featured Properties</h2>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="images/property-small-1.png">
+							<div class="caption">
+								<h3>27523 Pacific Coast</h3>
+								<p>Palo Alto CA</p>
+								<span>Area: 120</span>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class=" col-md-4">
+						<div class="thumbnail">
+							<img src="images/property-small-2.png">
+							<div class="caption">
+								<h3>27523 Pacific Coast</h3>
+								<p>Palo Alto CA</p>
+								<span>Area: 120</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="images/property-small-3.png">
+							<div class="caption">
+								<h3>27523 Pacific Coast</h3>
+								<p>Palo Alto CA</p>
+								<span>Area: 120</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="images/property-small-4.png">
+							<div class="caption">
+								<h3>27523 Pacific Coast</h3>
+								<p>Palo Alto CA</p>
+								<span>Area: 120</span>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class=" col-md-4">
+						<div class="thumbnail">
+							<img src="images/property-small-5.png">
+							<div class="caption">
+								<h3>27523 Pacific Coast</h3>
+								<p>Palo Alto CA</p>
+								<span>Area: 120</span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="images/property-small-6.png">
+							<div class="caption">
+								<h3>27523 Pacific Coast</h3>
+								<p>Palo Alto CA</p>
+								<span>Area: 120</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 rightfeature">
+					<h2 style="color: #707070;">Our Agents</h2>
+					<div class="girl col-md-12">
+						<div class="col-md-4">
+							<img src="images/emma-small.png"  class="img-circle img-responsive">
+						</div>
+						<div class="col-md-8">
+							<h4>Victoria Summer</h4>
+							<span>333-666-777</span>
+							<span style="color: #00bfff;">victoria@example.com</span>
+						</div>
+						
+					</div>
+					<div class="girl col-md-12">
+						<div class="col-md-4">
+							<img src="images/john-small.png"  class="img-circle img-responsive">
+						</div>
+						<div class="col-md-8">
+							<h4>Victoria Summer</h4>
+							<span>333-666-777</span>
+							<span style="color: #00bfff;">victoria@example.com</span>
+						</div>
+					</div>
+					<div>
+						<h2 style="padding-top: 70px; color: #707070;">Latest Properties</h2>
+						<div class="boy col-md-12">
+							
+							<div class="col-md-4 boyimage">
+								<img src="images/property-small-2.png"  class="img-rounded img-responsive">
+							</div>
+							<div class="col-md-8">
+								<p style="color: #00bfff;">27523 Pacific Coast</p>
+								<span>Palo Alto CA</span>
+								<p><b>2 300 000</b></p>
+							</div>
+							
+						</div>
+						<div class="boy col-md-12">
+							<div class="col-md-4 boyimage">
+								<img src="images/property-small-1.png"  class="img-rounded img-responsive">
+							</div>
+							<div class="col-md-8">
+								<p style="color: #00bfff;">27523 Pacific Coast</p>
+								<span>Palo Alto CA</span>
+								<p><b>2 300 000</b></p>
+							</div>
+						</div>
+						<div class="boy col-md-12">
+							<div class="col-md-4 boyimage">
+								<img src="images/property-small-2.png"  class="img-rounded img-responsive">
+							</div>
+							<div class="col-md-8">
+								<p style="color: #00bfff;">27523 Pacific Coast</p>
+								<span>Palo Alto CA</span>
+								<p><b>2 300 000</b></p>
+							</div>
+							
+							
+						</div>
+						<div class="boy col-md-12">
+							<div class="col-md-4 boyimage">
+								<img src="images/property-small-2.png"  class="img-rounded img-responsive">
+							</div>
+							<div class="col-md-8">
+								<p style="color: #00bfff;">27523 Pacific Coast</p>
+								<span>Palo Alto CA</span>
+								<p><b>2 300 000</b></p>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		<!-- feature end -->
+		<!-- slider start -->
+		<div class="container-fluid slider">
+			<h2 style="color: #707070;">All properties</h2>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="images/property-small-1.png">
+						<div class="caption">
+							<h3>27523 Pacific Coast</h3>
+							<p>Palo Alto CA</p>
+							<span>Area: 750m<sup>2</sup></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="images/property-small-1.png">
+						<div class="caption">
+							<h3>27523 Pacific Coast</h3>
+							<p>Palo Alto CA</p>
+							<span>Area: 750m<sup>2</sup></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="images/property-small-1.png">
+						<div class="caption">
+							<h3>27523 Pacific Coast</h3>
+							<p>Palo Alto CA</p>
+							<span>Area: 750m<sup>2</sup></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="images/property-small-1.png">
+						<div class="caption">
+							<h3>27523 Pacific Coast</h3>
+							<p>Palo Alto CA</p>
+							<span>Area: 750m<sup>2</sup></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- slider end -->
+		<!-- Theme features start -->
+		<div class="container-fluid themeFeatures">
+			<h2 style="color: #707070;">Theme features</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="col-md-3">
+						<img style="margin-top: 20px;" src="images/features-seo.png"  width="35" height="35">
+					</div>
+					<div class="col-md-9">
+						<h3>SEO Ready</h3><br>
+						<p>Realia is ready to put your website on higher ranks. Every line of code was developed with SEO principles in mind.</p>
+					</div>
+					
+					<div class="icon span1">
+						
+					</div>
+					<div class="text span3">
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-3">
+						<img style="margin-top: 20px;" src="images/features-retina.png"  width="35" height="35">
+					</div>
+					<div class="col-md-9">
+						<h3>Retina Ready</h3><br>
+						<p>Realia looks great even on Retina and high-resoultion displays. Every graphic element is sharp and clean. No blurry images anymore!</p>
+					</div>
+					
+					<div class="icon span1">
+						
+					</div>
+					<div class="text span3">
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-3">
+						<img style="margin-top: 20px;" src="images/features-custom.png"  width="35" height="35">
+					</div>
+					<div class="col-md-9">
+						<h3>Custom Widgets</h3><br>
+						<p>Realia provides custom developed widgets to fulfil requirements of good real estate application.</p>
+					</div>
+					
+					<div class="icon span1">
+						
+					</div>
+					<div class="text span3">
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="col-md-3">
+						<img style="margin-top: 20px;" src="images/features-bootstrap.png"  width="35" height="35">
+					</div>
+					<div class="col-md-9">
+						<h3>Prepared for Bootstrap</h3><br>
+						<p>Developer friendly code based on Bootstrap and SASS makes your own customizations really easy.</p>
+					</div>
+					
+					<div class="icon span1">
+						
+					</div>
+					<div class="text span3">
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-3">
+						<img style="margin-top: 20px;" src="images/features-pencil.png"  width="35" height="35">
+					</div>
+					<div class="col-md-9">
+						<h3>Frontend Submission</h3><br>
+						<p>Make the portal solution from your real estate by providing property submission on homepage.</p>
+					</div>
+					
+					<div class="icon span1">
+						
+					</div>
+					<div class="text span3">
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-3">
+						<img style="margin-top: 20px;" src="images/features-responsive.png"  width="35" height="35">
+					</div>
+					<div class="col-md-9">
+						<h3>Responsive</h3><br>
+						<p>Realia is ready to put your website on higher ranks. Every line of code was developed with SEO principles in mind.</p>
+					</div>
+					
+					<div class="icon span1">
+						
+					</div>
+					<div class="text span3">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Theme features end -->
+		<!-- thumb nails start -->
+		<div class="container thumbNails">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="images/call-to-action-address.png" class="img-circle">
+					<div class="caption">
+						<h3>List your property</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan dui ac nunc imperdiet rhoncus. Aenean vitae imperdiet lectus</p>
+						<button type="button" class="btn">Primary<span class="glyphicon glyphicon-chevron-right pull-right icon" aria-hidden="true"></span></button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/call-to-action-gps.png" class="img-circle">
+					<div class="caption">
+						<h3>Advertise rentals</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan dui ac nunc imperdiet rhoncus. Aenean vitae imperdiet lectus</p>
+						<button type="button" class="btn">Primary<span class="glyphicon glyphicon-chevron-right pull-right icon" aria-hidden="true"></span></button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/call-to-action-key.png" class="img-circle">
+					<div class="caption">
+						<h3>Guidance</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan dui ac nunc imperdiet rhoncus. Aenean vitae imperdiet lectus</p>
+						<button type="button" class="btn">Primary<span class="glyphicon glyphicon-chevron-right pull-right icon" aria-hidden="true"></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- thumb nails end -->
+		<!-- contact start -->
+		<div class="container-fluid contact">
+			<div class="row">
+				<div class="boy col-md-3">
+					<h2 style="color: #00bfff;">Most Recent</h2>
+					<div class="boy col-md-12">
+						<div class="col-md-4">
+							<img src="images/property-small-1.png"  class="img-rounded img-responsive">
+						</div>
+						<div class="col-md-8">
+							<p style="color: #00bfff;">27523 Pacific Coast</p>
+							<span>Palo Alto CA</span>
+							<p style="color: white;"><b>2 300 000</b></p>
+						</div>
+					</div>
+					<div class="boy col-md-12">
+						<div class="col-md-4">
+							<img src="images/property-small-2.png"  class="img-rounded img-responsive">
+						</div>
+						<div class="col-md-8">
+							<p style="color: #00bfff;">27523 Pacific Coast</p>
+							<span>Palo Alto CA</span>
+							<p style="color: white;"><b>2 300 000</b></p>
+						</div>
+					</div>
+					<div class="boy col-md-12">
+						<div class="col-md-4">
+							<img src="images/property-small-3.png"  class="img-rounded img-responsive">
+						</div>
+						<div class="col-md-8">
+							<p style="color: #00bfff;">27523 Pacific Coast</p>
+							<span>Palo Alto CA</span>
+							<p style="color: white;"><b>2 300 000</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h2 style="color: #00bfff;">Contact Us</h2>
+					<div class="boy col-md-12">
+						<div class="col-md-1">
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+						</div>
+						<div class="col-md-4">
+							<span style="color: #00bfff;">Address:</span>
+						</div>
+						<div class="col-md-7">
+							<span>1900 Pico Blvd, Santa Monica, CA 90405, United States
+							</span>
+						</div>
+					</div>
+					<div class="boy col-md-12">
+						<div class="col-md-1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+						</div>
+						<div class="col-md-4">
+							<span style="color: #00bfff;">Phone:</span>
+						</div>
+						<div class="col-md-7">
+							<span>+48 123 456 789</span>
+						</div>
+					</div>
+					<div class="boy col-md-12">
+						<div class="col-md-1">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						</div>
+						<div class="col-md-4">
+							<span style="color: #00bfff;">E-mail:</span>
+						</div>
+						<div class="col-md-7">
+							<span>info@example.com</span>
+						</div>
+					</div>
+					<div class="boy col-md-12">
+						<div class="col-md-1">
+							<i style="color: white;" class="fa fa-skype" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-4">
+							<span style="color: #00bfff;">Skype:</span>
+						</div>
+						<div class="col-md-7">
+							<span>your.company</span>
+						</div>
+					</div>
+					<div class="boy col-md-12">
+						<div class="col-md-1">
+							<span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span>
+						</div>
+						<div class="col-md-4">
+							<span style="color: #00bfff;">Gps:</span>
+						</div>
+						<div class="col-md-7">
+							<span>34.016811-118.469009</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<h2 style="color: #00bfff;">Useful Links</h2>
+					<ul>
+						<li><a href="#">404 page</a> </li>
+						<li><a href="#">About us</a> </li>
+						<li><a href="#">Contact us</a> </li>
+						<li><a href="#">FAQ</a> </li>
+						<li><a href="#">Grid system</a> </li>
+						<li><a href="#">Our agents</a> </li>
+						<li><a href="#">Typography</a> </li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h2 style="color: #00bfff;">Say hello!</h2>
+					<h5 style="color: white;">Name</h5>
+					<input type="text">
+					<h5 style="color: white;">E-mail</h5>
+					<input type="text">
+					<h5 style="color: white;">Message</h5>
+					<input type="text"><br><br>
+					<button type="button" class="btn btn-info">Primary</button>
+				</div>
+			</div>
+		</div>
+		<!-- contact end -->
+		<!-- footer start -->
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-4 ">
+					<p style="color: white; margin-top: 20px;">Copyright 2013 by Aviators. All rights reserved.</p>
+				</div>
+				<div class="col-md-6 col-md-offset-1 text-right">
+					<ul class="menu nav">
+						<li><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+						</li>
+						<li><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></li>
+						<li><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li>
+						<li><i class="fa fa-skype fa-2x" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<!-- footer end -->
+	</body>
+</html>
